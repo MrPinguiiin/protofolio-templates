@@ -9,16 +9,8 @@ import GmailDarkSvg from '$lib/imgs/gmail-dark.svg';
 import InstagramDark from '$lib/imgs/instagram-dark.png';
 import InstagramLight from '$lib/imgs/instagram-light.png';
 
-import AtomicImg from '$lib/imgs/atomic.png';
-import ShopifyImg from '$lib/imgs/shopify.svg';
-import NvidiaImg from '$lib/imgs/nvidia.png';
-import SplunkImg from '$lib/imgs/splunk.svg';
-import LimeImg from '$lib/imgs/lime.svg';
-import MitreMediaImg from '$lib/imgs/mitremedia.png';
-import BuildSpaceImg from '$lib/imgs/buildspace.jpg';
-import WaterLooImg from '$lib/imgs/waterloo.png';
-import LaurierImg from '$lib/imgs/laurier.png';
-import IBImg from '$lib/imgs/ib.png';
+import KesehatanImg from '$lib/imgs/kesehatan.png';
+import TamoraImg from '$lib/imgs/tamoraputra.jpeg';
 
 export let DATA = {
 	name: 'Muhammad Norshahlan',
@@ -33,16 +25,23 @@ export let DATA = {
 		'Fullstack Web Developer & Graphic Designer\n\nI am a passionate and creative professional specializing in web development and graphic design. With a keen eye for detail and a love for innovative solutions, I strive to create visually stunning and highly functional digital experiences.\n\nA Fullstack Web Developer will use their frontend and backend development understanding to create dynamic web applications. Using programming languages such as HTML, CSS and javascript to create the way the user interface looks. On the other hand, a Graphic designer focuses on creating excellent visual designs for branding and marketing. They use software like Adobe Photoshop, Illustrator to create Graphics, Logos and the layout of a page etc. Combining their technical know-how with a creative spin-churn out dynamic digital experiences.',
 	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
 	skills: [
-		'Svelte',
-		'Sveltekit',
-		'Typescript',
-		'Node.js',
-		'Python',
-		'Postgres',
-		'Docker',
-		'Prisma',
-		'TailwindCSS',
-		'Cloudflare Workers',
+		'HTML',
+		'CSS',
+		'JavaScript',
+		'PHP',
+		'TypeScript',
+		'PostgreSQL',
+		'MySQL',
+		'Laravel Framework',
+		'SvelteKit Framework',
+		'Adobe Photoshop',
+		'Adobe Premiere',
+		'Corel Draw',
+		'Canva',
+		'Figma',
+		'Microsoft Office',
+		'Microsoft Excel',
+		'Microsoft PowerPoint',
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
@@ -78,110 +77,66 @@ export let DATA = {
 	},
 	work: [
 		{
-			company: 'Atomic Finance',
-			href: 'https://atomic.finance',
+			company: 'Perc. Tamora Putra',
+			href: '/',
 			badges: [],
-			location: 'Remote',
-			title: 'Bitcoin Protocol Engineer',
-			logoUrl: AtomicImg,
-			start: 'May 2021',
-			end: 'Oct 2022',
-			description:
-				'Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.'
-		},
-		{
-			company: 'Shopify',
-			badges: [],
-			href: 'https://shopify.com',
-			location: 'Remote',
-			title: 'Software Engineer',
-			logoUrl: ShopifyImg,
-			start: 'January 2021',
-			end: 'April 2021',
-			description:
-				'Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.'
-		},
-		{
-			company: 'Nvidia',
-			href: 'https://nvidia.com/',
-			badges: [],
-			location: 'Santa Clara, CA',
-			title: 'Software Engineer',
-			logoUrl: NvidiaImg,
-			start: 'January 2020',
-			end: 'April 2020',
-			description:
-				'Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.'
-		},
-		{
-			company: 'Splunk',
-			href: 'https://splunk.com',
-			badges: [],
-			location: 'San Jose, CA',
-			title: 'Software Engineer',
-			logoUrl: SplunkImg,
-			start: 'January 2019',
-			end: 'April 2019',
-			description:
-				'Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.'
-		},
-		{
-			company: 'Lime',
-			href: 'https://li.me/',
-			badges: [],
-			location: 'San Francisco, CA',
-			title: 'Software Engineer',
-			logoUrl: LimeImg,
-			start: 'January 2018',
+			location: 'Tanjung Morawa, Indonesia',
+			title: 'Graphic Designer',
+			logoUrl: TamoraImg,
+			start: 'January 2015',
 			end: 'April 2018',
 			description:
-				'Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.'
+				'Designed and created visual content for print and digital media including brochures, flyers, logos, banners, and marketing materials. Collaborated with clients to understand their brand identity and translate concepts into compelling visual designs. Used Adobe Photoshop, Illustrator, and InDesign to create high-quality graphics and layouts. Managed multiple design projects from concept to final delivery, ensuring brand consistency and meeting client deadlines.'
 		},
 		{
-			company: 'Mitre Media',
-			href: 'https://mitremedia.com/',
+			company: 'Dinas Kesehatan Deli Serdang',
+			href: 'https://dinkes.deliserdangkab.go.id/',
 			badges: [],
-			location: 'Toronto, ON',
-			title: 'Software Engineer',
-			logoUrl: MitreMediaImg,
-			start: 'May 2017',
-			end: 'August 2017',
+			location: 'Lubuk Pakam, Indonesia',
+			title: 'Fullstack Web Developer',
+			logoUrl: KesehatanImg,
+			start: 'November 2023',
+			end: 'April 2024',
 			description:
-				'Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener'
-		}
+				'Developed and maintained fullstack web applications for health information systems. Built responsive frontend interfaces using modern JavaScript frameworks and designed backend APIs and database systems. Implemented features for data management, reporting, and user administration. Collaborated with stakeholders to understand requirements and deliver scalable web solutions that improve operational efficiency for the health department.'
+		},
+		{
+			company: 'Sendvitation',
+			href: 'https://sendvitation.com',
+			badges: [],
+			location: 'Medan, Indonesia',
+			title: 'Fullstack Software Engineer',
+			logoUrl: "https://sendvitation.com/sendvitation.png",
+			start: 'Mei 2025',
+			end: 'Present',
+			description:
+				'Developed fullstack web applications handling both frontend and backend development. Deployed applications to production environments and managed deployment pipelines. Performed regular maintenance, bug fixes, and performance optimization to ensure system stability. Continuously updated and enhanced features based on user feedback and business requirements. Built and maintained RESTful APIs, database systems, and responsive user interfaces using modern technologies.'
+		},
 	],
 	education: [
 		{
-			school: 'Buildspace',
-			href: 'https://buildspace.so',
-			degree: 's3, s4, sf1, s5',
-			logoUrl: BuildSpaceImg,
-			start: '2023',
-			end: '2024'
+			school: 'STMIK TRIGUNA DHARMA',
+			href: 'https://trigunadharma.ac.id',
+			degree: 'Bachelor of Information Systems',
+			logoUrl: "https://eventkampus.com/data/sekolah/112-8.jpeg",
+			start: '2018',
+			end: '2023'
 		},
 		{
-			school: 'University of Waterloo',
-			href: 'https://uwaterloo.ca',
-			degree: "Bachelor's Degree of Computer Science (BCS)",
-			logoUrl: WaterLooImg,
-			start: '2016',
-			end: '2021'
+			school: 'AWS',
+			href: 'https://aws.amazon.com',
+			degree: 'Cloud Computing',
+			logoUrl: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+			start: 'January 2023',
+			end: 'June 2023'
 		},
 		{
-			school: 'Wilfrid Laurier University',
-			href: 'https://wlu.ca',
-			degree: "Bachelor's Degree of Business Administration (BBA)",
-			logoUrl: LaurierImg,
-			start: '2016',
-			end: '2021'
-		},
-		{
-			school: 'International Baccalaureate',
-			href: 'https://ibo.org',
-			degree: 'IB Diploma',
-			logoUrl: IBImg,
-			start: '2012',
-			end: '2016'
+			school: 'Datacamp',
+			href: 'https://datacamp.com',
+			degree: "Python ",
+			logoUrl: "https://www.fditf.com/bi/wp-content/uploads/2021/01/logo-pequeno.jpg",
+			start: ' June 2024',
+			end: ' December 2024'
 		}
 	],
 	projects: [
