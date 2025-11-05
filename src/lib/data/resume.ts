@@ -3,17 +3,11 @@ import { CodeIcon, Github, Globe, HomeIcon, NotebookIcon, Youtube } from 'lucide
 import GithubSvg from '$lib/imgs/github.svg';
 import GithubDarkSvg from '$lib/imgs/github-dark.svg';
 
-import PeerListSvg from '$lib/imgs/peerlist.svg';
-import PeerListDarkSvg from '$lib/imgs/peerlist-dark.svg';
-
 import GmailSvg from '$lib/imgs/gmail.svg';
 import GmailDarkSvg from '$lib/imgs/gmail-dark.svg';
 
-import LinkedinSvg from '$lib/imgs/linkedin.svg';
-import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
-
-import TwitterSvg from '$lib/imgs/x.svg';
-import TwitterDarkSvg from '$lib/imgs/x-dark.svg';
+import InstagramDark from '$lib/imgs/instagram-dark.png';
+import InstagramLight from '$lib/imgs/instagram-light.png';
 
 import AtomicImg from '$lib/imgs/atomic.png';
 import ShopifyImg from '$lib/imgs/shopify.svg';
@@ -53,56 +47,30 @@ export let DATA = {
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
-		{ href: '/blog', icon: NotebookIcon, label: 'Blog' },
 		{ href: '#', icon: CodeIcon, label: 'Projects' }
 	],
 	contact: {
-		email: 'hello@example.com',
-		tel: '+123456789',
+		email: 'alansnulien@gmail.com',
+		tel: '+6285836350018',
 		social: {
 			GitHub: {
 				name: 'GitHub',
-				url: 'https://github.com/SikandarJODD/portfolio-template',
-				// // icon: Icons.github,
+				url: 'https://github.com/MrPinguiiin',
 				icon: GithubSvg,
 				navbar: true,
 				dark_icon: GithubDarkSvg
 			},
-			LinkedIn: {
-				name: 'LinkedIn',
-				url: 'https://www.linkedin.com/in/sikandar-bhide/',
-				// // icon: Icons.linkedin,
-				icon: LinkedinSvg,
-				navbar: true,
-				dark_icon: LinkedinDarkSvg
-			},
-			X: {
-				name: 'X',
-				url: 'https://twitter.com/Sikandar_Bhide',
+			instagram: {
+				name: 'Instagram',
+				url: 'https://www.instagram.com/mrpinguiiin_/',
 				// // icon: Icons.x,
-				icon: TwitterSvg,
+				icon: InstagramLight,
 				navbar: true,
-				dark_icon: TwitterDarkSvg
+				dark_icon: InstagramDark
 			},
-			PeerList: {
-				name: 'PeerList',
-				url: 'https://peerlist.io/bhide',
-				// // icon: Icons.x,
-				icon: PeerListSvg,
-				navbar: true,
-				dark_icon: PeerListDarkSvg
-			},
-			// Youtube: {
-			// 	name: 'Youtube',
-			// 	url: 'https://github.com/SikandarJODD',
-			// 	// // icon: Icons.youtube,
-			// 	icon: Youtube,
-			// 	navbar: true
-			// },
 			email: {
 				name: 'Send Email',
 				url: '#',
-				// // icon: Icons.email,
 				icon: GmailSvg,
 				navbar: false,
 				dark_icon: GmailDarkSvg
