@@ -148,10 +148,16 @@ export let DATA = {
 			description:
 				'Personal portfolio website showcasing fullstack development and graphic design skills. Features modern design with sections for about, skills, experience, portfolio showcase, and contact information.',
 			technologies: [
+				'Svelte',
 				'SvelteKit',
-				'TypeScript',
-				'TailwindCSS',
-				'Vite'
+				'Tailwind CSS',
+				'Vite',
+				'Radix UI',
+				'Magic UI',
+				'shadcn/ui',
+				'Lucide',
+				'Swiper',
+				'PWA'
 			],
 			links: [
 				{
@@ -171,10 +177,12 @@ export let DATA = {
 			description:
 				'Comprehensive REST API service offering multiple image and media processing capabilities. Features include AI-powered image enhancement, background removal, music analysis and generation, OTP management, YouTube audio download, and combination tools. Fully documented with interactive API documentation.',
 			technologies: [
-				'Node.js',
-				'TypeScript',
-				'REST API',
-				'PostgreSQL'
+				'FastAPI',
+				'Python',
+				'Uvicorn',
+				'React',
+				'Swagger UI',
+				'jsDelivr'
 			],
 			links: [
 				{
@@ -194,10 +202,14 @@ export let DATA = {
 			description:
 				'Temporary email generator service that allows users to create disposable email addresses instantly. Perfect for testing, privacy protection, and avoiding spam on online registrations.',
 			technologies: [
+				'Svelte',
 				'SvelteKit',
-				'TypeScript',
-				'TailwindCSS',
-				'Vercel'
+				'Tailwind CSS',
+				'Vite',
+				'Vercel',
+				'Radix UI',
+				'shadcn/ui',
+				'Lucide'
 			],
 			links: [
 				{
@@ -218,9 +230,12 @@ export let DATA = {
 				'Free and open-source map picker component for Svelte using OpenStreetMap and Leaflet. Features location selection, search functionality, customizable styling, and embed code generation.',
 			technologies: [
 				'Svelte',
-				'TypeScript',
+				'SvelteKit',
+				'Vite',
 				'Leaflet',
-				'OpenStreetMap'
+				'Geoapify',
+				'Vercel',
+				'HSTS'
 			],
 			links: [
 				{
@@ -240,10 +255,11 @@ export let DATA = {
 			description:
 				'All-in-one point-of-sale solution designed specifically for coffee shops. Streamlines operations with order management, real-time analytics, inventory tracking, and integrated payment systems.',
 			technologies: [
-				'Laravel',
-				'PHP',
-				'MySQL',
-				'JavaScript'
+				'Svelte',
+				'SvelteKit',
+				'Vite',
+				'Vercel',
+				'Google Font API'
 			],
 			links: [
 				{
@@ -263,10 +279,15 @@ export let DATA = {
 			description:
 				'Smart tool to analyze shipping labels and extract package information with costs. Uses AI to process JNE shipping label images and automatically extract sender, recipient, and pricing details.',
 			technologies: [
-				'SvelteKit',
-				'TypeScript',
-				'AI/ML',
-				'TailwindCSS'
+				'Next.js',
+				'React',
+				'Tailwind CSS',
+				'Radix UI',
+				'shadcn/ui',
+				'Lucide',
+				'Vercel',
+				'Webpack',
+				'Priority Hints'
 			],
 			links: [
 				{
@@ -286,10 +307,15 @@ export let DATA = {
 			description:
 				'Powerful image conversion tool supporting multiple formats including PNG, JPG, WebP, GIF, and BMP. Features bulk processing up to 30 images, drag & drop interface, and privacy-focused processing.',
 			technologies: [
-				'SvelteKit',
-				'TypeScript',
-				'Image Processing',
-				'TailwindCSS'
+				'Next.js',
+				'React',
+				'Tailwind CSS',
+				'Radix UI',
+				'shadcn/ui',
+				'Lucide',
+				'Vercel',
+				'Webpack',
+				'Priority Hints'
 			],
 			links: [
 				{
@@ -309,10 +335,15 @@ export let DATA = {
 			description:
 				'Interactive photo booth application that allows users to capture photos, customize them, and share with others. Features countdown timer, photo history, and instant sharing capabilities.',
 			technologies: [
-				'SvelteKit',
-				'TypeScript',
-				'WebRTC',
-				'TailwindCSS'
+				'Next.js',
+				'React',
+				'Tailwind CSS',
+				'Radix UI',
+				'shadcn/ui',
+				'Lucide',
+				'Vercel',
+				'Webpack',
+				'Priority Hints'
 			],
 			links: [
 				{
@@ -332,10 +363,15 @@ export let DATA = {
 			description:
 				'Serverless proxy service providing location detection, server status monitoring, and domain management. Features IP geolocation, ISP detection, and responsive theme switching.',
 			technologies: [
-				'Serverless',
-				'TypeScript',
-				'API',
-				'Cloud Functions'
+				'Next.js',
+				'React',
+				'Tailwind CSS',
+				'Radix UI',
+				'shadcn/ui',
+				'Lucide',
+				'Vercel',
+				'Webpack',
+				'Priority Hints'
 			],
 			links: [
 				{
