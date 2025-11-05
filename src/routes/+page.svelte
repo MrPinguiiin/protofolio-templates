@@ -1,13 +1,14 @@
 <script>
 	import BlurFade from '$lib/components/magic/BlurFade.svelte';
-	import HackathonCard from '$lib/components/portfolio/HackathonCard.svelte';
 	import ProjectCard from '$lib/components/portfolio/ProjectCard.svelte';
 	import ResumeCard from '$lib/components/portfolio/ResumeCard.svelte';
 	import * as Avatar from '$lib/components/ui/avatar';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import { DATA } from '$lib/data/resume';
 	import { marked } from 'marked';
-	let BLUR_FADE_DELAY = 0.04;
+
+
+	let BLUR_FADE_DELAY = $state(0.04);
 </script>
 
 <svelte:head>
@@ -41,11 +42,10 @@
 					<BlurFade
 						delay={BLUR_FADE_DELAY}
 						class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-						yOffset={8}>Hi, I'm Bhide 👋</BlurFade
+						yOffset={8}>Hi, I'm Muhammad Norshahlan 👋</BlurFade
 					>
 					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}
-						>Software Engineer turned Entrepreneur. I love building things and helping people. Very
-						active on Twitter.</BlurFade
+						>Software Engineer turned Entrepreneur. I love building things and helping people.</BlurFade
 					>
 				</div>
 				<BlurFade delay={BLUR_FADE_DELAY}>
@@ -162,7 +162,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="hackathons">
+	<!-- <section id="hackathons">
 		<div class="w-full space-y-12 py-12">
 			<BlurFade delay={BLUR_FADE_DELAY}>
 				<div class="flex flex-col items-center justify-center space-y-4 text-center">
@@ -193,8 +193,8 @@
 				</ul>
 			</BlurFade>
 		</div>
-	</section>
-	<section id="contact">
+	</section> -->
+	<!-- <section id="contact">
 		<div class="grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6">
 			<BlurFade delay={BLUR_FADE_DELAY * 2}>
 				<div class="space-y-3">
@@ -214,5 +214,5 @@
 				</div>
 			</BlurFade>
 		</div>
-	</section>
+	</section> -->
 </main>

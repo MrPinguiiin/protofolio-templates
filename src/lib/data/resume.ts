@@ -28,16 +28,16 @@ import IBImg from '$lib/imgs/ib.png';
 
 // Your resume data
 export let DATA = {
-	name: 'Sikandar Bhide',
-	initials: 'SB',
-	url: 'https://github.com/SikandarJODD',
+	name: 'Muhammad Norshahlan',
+	initials: 'MN',
+	url: 'https://github.com/MrPinguiiin',
 	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	location: 'Mumbai, India',
-	locationLink: 'https://www.google.com/maps/place/mumbai',
+	location: 'Medan, Indonesia',
+	locationLink: 'https://www.google.com/maps/place/Medan',
 	description:
 		'Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.',
 	summary:
-		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
+		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons).',
 	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
 	skills: [
 		'Svelte',
@@ -45,12 +45,11 @@ export let DATA = {
 		'Typescript',
 		'Node.js',
 		'Python',
-		'Go',
 		'Postgres',
 		'Docker',
-		'Kubernetes',
-		'Java',
-		'C++'
+		'Prisma',
+		'TailwindCSS',
+		'Cloudflare Workers',
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
