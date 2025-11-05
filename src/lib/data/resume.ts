@@ -107,7 +107,7 @@ export let DATA = {
 			location: 'Medan, Indonesia',
 			title: 'Fullstack Software Engineer',
 			logoUrl: "https://sendvitation.com/sendvitation.png",
-			start: 'Mei 2025',
+			start: 'Mei 2024',
 			end: 'Present',
 			description:
 				'Developed fullstack web applications handling both frontend and backend development. Deployed applications to production environments and managed deployment pipelines. Performed regular maintenance, bug fixes, and performance optimization to ensure system stability. Continuously updated and enhanced features based on user feedback and business requirements. Built and maintained RESTful APIs, database systems, and responsive user interfaces using modern technologies.'

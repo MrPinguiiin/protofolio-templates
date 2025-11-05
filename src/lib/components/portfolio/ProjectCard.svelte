@@ -1,17 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { marked } from 'marked';
 	import Badge from '../ui/badge/badge.svelte';
-
-	// export { _class as class };
-	// export let title: string;
-	// export let href: string = '';
-	// export let description: string;
-	// export let dates: string;
-	// export let tags: readonly string[];
-	// export let link: string = '';
-	// export let image: string = '';
-	// export let video: string = '';
-	// export let links: { icon: any; type: string; href: string }[] = [];
 
 	let {
 		href,
@@ -36,6 +26,29 @@
 	} = $props();
 
 	let _class = $state('');
+	let videoRef = $state<HTMLVideoElement | undefined>(undefined);
+	let shouldLoadVideo = $state(false);
+
+	onMount(() => {
+		if (video && videoRef) {
+			const observer = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting && videoRef) {
+							shouldLoadVideo = true;
+							observer.disconnect();
+						}
+					});
+				},
+				{ rootMargin: '50px' }
+			);
+
+			if (videoRef) {
+				observer.observe(videoRef);
+			}
+			return () => observer.disconnect();
+		}
+	});
 </script>
 
 <!-- Card -->
@@ -45,11 +58,14 @@
 	<a href={href || '#'} class="block cursor-pointer">
 		{#if video}
 			<video
+				bind:this={videoRef}
 				class="pointer-events-none mx-auto h-40 w-full object-cover object-top"
-				src={video}
+				src={shouldLoadVideo ? video : ''}
 				autoplay
 				loop
 				muted
+				preload={shouldLoadVideo ? 'auto' : 'none'}
+				playsinline
 			></video>
 		{:else}
 			<img class="h-40 w-full overflow-hidden object-cover object-top" src={image} alt={title} />
