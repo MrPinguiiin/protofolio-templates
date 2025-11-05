@@ -141,129 +141,211 @@ export let DATA = {
 	],
 	projects: [
 		{
-			title: 'Chat Collect',
-			href: 'https://chatcollect.com',
-			dates: 'Jan 2024 - Feb 2024',
+			title: 'Portofolio',
+			href: 'https://mystorytell.vercel.app/',
+			dates: '2024 - Present',
 			active: true,
 			description:
-				'With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.',
+				'Personal portfolio website showcasing fullstack development and graphic design skills. Features modern design with sections for about, skills, experience, portfolio showcase, and contact information.',
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
+				'SvelteKit',
+				'TypeScript',
 				'TailwindCSS',
-				'Stripe',
-				'Shadcn UI',
-				'Magic UI'
+				'Vite'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://chatcollect.com',
-					// icon: <Icons.globe className="size-3" />,
+					href: 'https://mystorytell.vercel.app/',
 					icon: Globe
 				}
 			],
 			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4'
+			video: 'https://image.badcode.biz.id/videos/portofolio.mp4'
 		},
 		{
-			title: 'Magic UI',
-			href: 'https://magicui.design',
-			dates: 'June 2023 - Present',
-			active: true,
-			description: 'Designed, developed and sold animated UI components for developers.',
-			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
-				'TailwindCSS',
-				'Stripe',
-				'Shadcn UI',
-				'Magic UI'
-			],
-			links: [
-				{
-					type: 'Website',
-					href: 'https://magicui.design',
-					// icon: <Icons.globe className="size-3" />,
-					icon: Globe
-				},
-				{
-					type: 'Source',
-					href: 'https://github.com/magicuidesign/magicui',
-					icon: Github
-					// icon: <Icons.github className="size-3" />,
-				}
-			],
-			image: '',
-			video: 'https://cdn.magicui.design/bento-grid.mp4'
-		},
-		{
-			title: 'llm.report',
-			href: 'https://llm.report',
-			dates: 'April 2023 - September 2023',
+			title: 'Image Enhancement & Media API',
+			href: 'https://api-image.sendvitation.com/docs',
+			dates: '2024 - Present',
 			active: true,
 			description:
-				'Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.',
+				'Comprehensive REST API service offering multiple image and media processing capabilities. Features include AI-powered image enhancement, background removal, music analysis and generation, OTP management, YouTube audio download, and combination tools. Fully documented with interactive API documentation.',
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
-				'TailwindCSS',
-				'Shadcn UI',
-				'Magic UI',
-				'Stripe',
-				'Cloudflare Workers'
+				'Node.js',
+				'TypeScript',
+				'REST API',
+				'PostgreSQL'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://llm.report',
+					href: 'https://api-image.sendvitation.com/docs',
 					icon: Globe
-					// icon: <Icons.globe className="size-3" />,
-				},
-				{
-					type: 'Source',
-					href: 'https://github.com/dillionverma/llm.report',
-					icon: Github
-					// icon: <Icons.github className="size-3" />,
 				}
 			],
 			image: '',
-			video: 'https://cdn.llm.report/openai-demo.mp4'
+			video: 'https://image.badcode.biz.id/videos/AIIMAGE.mp4'
 		},
 		{
-			title: 'Automatic Chat',
-			href: 'https://automatic.chat',
-			dates: 'April 2023 - March 2024',
+			title: 'mailHog',
+			href: 'https://mailhog.vercel.app/',
+			dates: '2024 - Present',
 			active: true,
 			description:
-				'Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.',
+				'Temporary email generator service that allows users to create disposable email addresses instantly. Perfect for testing, privacy protection, and avoiding spam on online registrations.',
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
+				'SvelteKit',
+				'TypeScript',
 				'TailwindCSS',
-				'Shadcn UI',
-				'Magic UI',
-				'Stripe',
-				'Cloudflare Workers'
+				'Vercel'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://automatic.chat',
+					href: 'https://mailhog.vercel.app/',
 					icon: Globe
-					// icon: <Icons.globe className="size-3" />,
 				}
 			],
 			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+			video: 'https://image.badcode.biz.id/videos/tempmail.mp4'
+		},
+		{
+			title: 'Map Picker',
+			href: 'https://mapker.vercel.app/',
+			dates: '2024 - Present',
+			active: true,
+			description:
+				'Free and open-source map picker component for Svelte using OpenStreetMap and Leaflet. Features location selection, search functionality, customizable styling, and embed code generation.',
+			technologies: [
+				'Svelte',
+				'TypeScript',
+				'Leaflet',
+				'OpenStreetMap'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://mapker.vercel.app/',
+					icon: Globe
+				}
+			],
+			image: '',
+			video: 'https://image.badcode.biz.id/videos/MapPicker.mp4'
+		},
+		{
+			title: 'POS Coffee Shop',
+			href: 'https://www.beanbill.my.id/',
+			dates: '2024 - Present',
+			active: true,
+			description:
+				'All-in-one point-of-sale solution designed specifically for coffee shops. Streamlines operations with order management, real-time analytics, inventory tracking, and integrated payment systems.',
+			technologies: [
+				'Laravel',
+				'PHP',
+				'MySQL',
+				'JavaScript'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://www.beanbill.my.id/',
+					icon: Globe
+				}
+			],
+			image: '',
+			video: 'https://image.badcode.biz.id/videos/POS-coffee.mp4'
+		},
+		{
+			title: 'JNE LABEL ANALYZER',
+			href: 'https://jne-analyzer.vercel.app/',
+			dates: '2024 - Present',
+			active: true,
+			description:
+				'Smart tool to analyze shipping labels and extract package information with costs. Uses AI to process JNE shipping label images and automatically extract sender, recipient, and pricing details.',
+			technologies: [
+				'SvelteKit',
+				'TypeScript',
+				'AI/ML',
+				'TailwindCSS'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://jne-analyzer.vercel.app/',
+					icon: Globe
+				}
+			],
+			image: '',
+			video: 'https://image.badcode.biz.id/videos/JNE.mp4'
+		},
+		{
+			title: 'Image Converter',
+			href: 'https://imagecv.sendvitation.com/',
+			dates: '2024 - Present',
+			active: true,
+			description:
+				'Powerful image conversion tool supporting multiple formats including PNG, JPG, WebP, GIF, and BMP. Features bulk processing up to 30 images, drag & drop interface, and privacy-focused processing.',
+			technologies: [
+				'SvelteKit',
+				'TypeScript',
+				'Image Processing',
+				'TailwindCSS'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://imagecv.sendvitation.com/',
+					icon: Globe
+				}
+			],
+			image: '',
+			video: 'https://image.badcode.biz.id/videos/converter.mp4'
+		},
+		{
+			title: 'Self Photobooth',
+			href: 'https://photoqu.vercel.app/',
+			dates: '2024 - Present',
+			active: true,
+			description:
+				'Interactive photo booth application that allows users to capture photos, customize them, and share with others. Features countdown timer, photo history, and instant sharing capabilities.',
+			technologies: [
+				'SvelteKit',
+				'TypeScript',
+				'WebRTC',
+				'TailwindCSS'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://photoqu.vercel.app/',
+					icon: Globe
+				}
+			],
+			image: '',
+			video: 'https://image.badcode.biz.id/videos/photoboot.mp4'
+		},
+		{
+			title: 'Proxy Serverless x Nautica',
+			href: 'https://serverless.badcode.biz.id/',
+			dates: '2024 - Present',
+			active: true,
+			description:
+				'Serverless proxy service providing location detection, server status monitoring, and domain management. Features IP geolocation, ISP detection, and responsive theme switching.',
+			technologies: [
+				'Serverless',
+				'TypeScript',
+				'API',
+				'Cloud Functions'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://serverless.badcode.biz.id/',
+					icon: Globe
+				}
+			],
+			image: '',
+			video: 'https://image.badcode.biz.id/videos/serverless.mp4'
 		}
 	],
 	hackathons: [
