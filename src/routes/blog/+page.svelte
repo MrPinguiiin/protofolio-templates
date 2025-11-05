@@ -33,18 +33,3 @@
 		{/each}
 	</ul>
 </section>
-
-<style>
-	.posts {
-		display: grid;
-	}
-
-	.post {
-		max-inline-size: var(--size-content-3);
-	}
-
-	.post:not(:last-child) {
-		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-7);
-	}
-</style>
