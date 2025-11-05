@@ -20,18 +20,17 @@ import WaterLooImg from '$lib/imgs/waterloo.png';
 import LaurierImg from '$lib/imgs/laurier.png';
 import IBImg from '$lib/imgs/ib.png';
 
-// Your resume data
 export let DATA = {
 	name: 'Muhammad Norshahlan',
 	initials: 'MN',
-	url: 'https://github.com/MrPinguiiin',
+	url: 'https://mystorytell.vercel.app',
 	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	location: 'Medan, Indonesia',
-	locationLink: 'https://www.google.com/maps/place/Medan',
+	location: 'Tanjung Morawa, Indonesian',
+	locationLink: 'https://www.google.com/maps/place/Tanjung+Morawa',
 	description:
-		'Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.',
+		'Fullstack Web Developer & Graphic Designer. I am a passionate and creative professional specializing in web development and graphic design.',
 	summary:
-		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons).',
+		'Fullstack Web Developer & Graphic Designer\n\nI am a passionate and creative professional specializing in web development and graphic design. With a keen eye for detail and a love for innovative solutions, I strive to create visually stunning and highly functional digital experiences.\n\nA Fullstack Web Developer will use their frontend and backend development understanding to create dynamic web applications. Using programming languages such as HTML, CSS and javascript to create the way the user interface looks. On the other hand, a Graphic designer focuses on creating excellent visual designs for branding and marketing. They use software like Adobe Photoshop, Illustrator to create Graphics, Logos and the layout of a page etc. Combining their technical know-how with a creative spin-churn out dynamic digital experiences.',
 	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
 	skills: [
 		'Svelte',
