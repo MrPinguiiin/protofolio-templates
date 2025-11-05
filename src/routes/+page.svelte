@@ -36,7 +36,7 @@
 	<meta name="yandex-verification" content="your-yandex-verification-code" />
 </svelte:head>
 
-<Particles className="fixed inset-0 z-0 pointer-events-none" quantity={800} staticity={10} ease={100} size={0.2} refresh={true} color="#8CCDEB" vx={0} vy={0} />
+<Particles className="fixed inset-0 z-0 pointer-events-none" quantity={300} staticity={10} ease={100} size={0.2} refresh={true} color="#8CCDEB" vx={0} vy={0} />
 
 <main class="relative z-10 flex min-h-[100dvh] flex-col space-y-10">
 	<section id="hero">
