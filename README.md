@@ -26,13 +26,13 @@ cd portfolio-template
 3. Install dependencies
 
 ```bash
-npm install
+bun install
 ```
 
 4. Start the development server
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 5. Open the [Config File](https://github.com/SikandarJODD/portfolio-template/blob/main/src/lib/data/resume.ts) and make changes

@@ -76,7 +76,16 @@
 			</BlurFade>
 			{#each DATA.work as work, id}
 				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
-					<ResumeCard {...work} />
+					<ResumeCard
+						start={work.start}
+						end={work.end}
+						logoUrl={work.logoUrl}
+						company={work.company}
+						title={work.title}
+						href={work.href}
+						badges={work.badges}
+						description={work.description}
+					/>
 				</BlurFade>
 			{/each}
 		</div>
@@ -89,13 +98,13 @@
 			{#each DATA.education as edu, id}
 				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
 					<ResumeCard
+						start={edu.start}
+						end={edu.end}
 						href={edu.href}
 						logoUrl={edu.logoUrl}
 						company={edu.school}
 						title={edu.school}
-						subtitle={edu.degree}
-						start={edu.start}
-						end={edu.end}
+						subtitle={edu.degree}	
 					/>
 				</BlurFade>
 			{/each}

@@ -5,17 +5,34 @@
 	import { ChevronRightIcon } from 'lucide-svelte';
 	import { quartOut } from 'svelte/easing';
 	import { slide } from 'svelte/transition';
-	export let logoUrl: string = '';
-	export let company: string = '';
-	export let title: string = '';
-	export let subtitle: string = '';
-	export let href: string = '';
-	export let badges: string[]=[''];
-	export let description: string = '';
-	export let start: string = '';
-	export let end: string = '';
-	let isExpanded = false;
 
+	let {
+		logoUrl,
+		company,
+		title,
+		subtitle,
+		href,
+		badges,
+		description,
+		start,
+		end
+	}: {
+		logoUrl: string;
+		company: string;
+		title: string;
+		subtitle?: string;
+		href: string;
+		badges?: string[];
+		description?: string;
+		start: string;
+		end: string;
+	} = $props();
+	
+	
+	let isExpanded = $state(false);
+
+	
+	
 	let handleClick = (e: MouseEvent) => {
 		if (description) {
 			e.preventDefault();
@@ -24,7 +41,7 @@
 	};
 </script>
 
-<a href={href || '#'} on:click={handleClick}>
+<a href={href || '#'} onclick={handleClick}>
 	<div class="flex rounded-lg bg-card text-card-foreground">
 		<div class="flex-none">
 			<Avatar.Root class="bg-muted-background m-auto size-12 border dark:bg-foreground">
@@ -39,10 +56,10 @@
 						class="inline-flex items-center justify-center text-xs font-semibold leading-none sm:text-sm"
 					>
 						{company}
-						{#if badges?.length > 0 && badges[0] !== ''}
+						{#if badges && badges.length > 0 && badges[0] !== ''}
 							<span class="inline-flex gap-x-1">
-								{#each badges as badge, index}
-									<Badge variant="secondary" class="align-middle text-xs" key={index}>
+								{#each badges as badge}
+									<Badge variant="secondary" class="align-middle text-xs">
 										{badge}
 									</Badge>
 								{/each}
@@ -61,6 +78,9 @@
 				</div>
 				{#if title}
 					<div class="font-sans text-xs">{title}</div>
+				{/if}
+				{#if subtitle}
+					<div class="font-sans text-xs text-muted-foreground">{subtitle}</div>
 				{/if}
 			</div>
 			{#if description}

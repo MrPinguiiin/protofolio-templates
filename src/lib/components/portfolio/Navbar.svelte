@@ -24,7 +24,7 @@
 	>
 		{#each DATA.navbar as item}
 			<DockIcon {magnification} {mouseX} {distance}>
-				<Tooltip.Root openDelay={300}>
+				<Tooltip.Root delayDuration={300}>
 					<Tooltip.Trigger>
 						<Button href={item.href} variant="ghost" size="icon" class="size-12 rounded-full">
 							<!-- <item.icon class="size-4" /> -->
@@ -42,7 +42,7 @@
 			.filter(([_, social]) => social.navbar)
 			.map(([_, social]) => social) as social}
 			<DockIcon {magnification} {mouseX} {distance}>
-				<Tooltip.Root openDelay={300}>
+				<Tooltip.Root delayDuration={300}>
 					<Tooltip.Trigger>
 						<Button href={social.url} variant="ghost" size="icon" class="size-12 rounded-full">
 							<!-- <svelte:component this={social.icon} class="size-4" strokeWidth={1.5} /> -->
@@ -61,7 +61,7 @@
 		{/each}
 		<Separator orientation="vertical" class="h-full py-2" />
 		<DockIcon {magnification} {mouseX} {distance}>
-			<Tooltip.Root openDelay={300}>
+			<Tooltip.Root delayDuration={300}>
 				<Tooltip.Trigger>
 					<ModeToggle />
 				</Tooltip.Trigger>
