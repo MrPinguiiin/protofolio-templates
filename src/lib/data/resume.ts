@@ -105,7 +105,7 @@ export let DATA = {
 			href: 'https://sendvitation.com',
 			badges: [],
 			location: 'Medan, Indonesia',
-			title: 'Fullstack Software Engineer',
+			title: 'Software Engineer',
 			logoUrl: "https://sendvitation.com/sendvitation.png",
 			start: 'Mei 2024',
 			end: 'Present',
